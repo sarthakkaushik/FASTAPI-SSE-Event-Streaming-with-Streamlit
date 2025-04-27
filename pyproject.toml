@@ -1,0 +1,16 @@
+[project]
+name = "oai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiofiles>=24.1.0",
+    "fastapi>=0.115.12",
+    "httpx>=0.28.1",
+    "jinja2>=3.1.6",
+    "sse-starlette>=2.3.3",
+    "sseclient-py>=1.8.0",
+    "streamlit>=1.44.1",
+    "uvicorn>=0.34.2",
+]

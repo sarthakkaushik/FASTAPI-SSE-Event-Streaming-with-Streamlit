@@ -1,0 +1,7 @@
+<body>
+    <pre id="out"></pre>
+    <script>
+      const es = new EventSource("/time");
+      es.onmessage = (e) => document.getElementById("out").textContent += e.data + "\n";
+    </script>
+  </body>
