@@ -23,8 +23,6 @@ The FastAPI backend simulates sequential tasks (sum, multiply, divide) and sends
 
 ## 📸 Demo (Conceptual)
 
-*(Imagine a GIF or screenshot here showing the Streamlit app with the progress bar filling up and status text changing.)*
-
 1.  User clones the project and installs dependencies using `uv sync`.
 2.  User runs the FastAPI backend and then the Streamlit frontend.
 3.  User clicks "Start Task and Monitor Progress" in the Streamlit app.
