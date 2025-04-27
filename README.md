@@ -43,7 +43,7 @@ The FastAPI backend simulates sequential tasks (sum, multiply, divide) and sends
 1.  **Clone the Repository:**
     ```bash
     git clone https://github.com/sarthakkaushik/FASTAPI-SSE-Event-Streaming-with-Streamlit.git 
-    cd <your-project-directory-name>
+    cd FASTAPI-SSE-Event-Streaming-with-Streamlit
     ```
 
 2.  **Create and Activate Virtual Environment:**

@@ -219,6 +219,6 @@ async def stream_overall_progress(request: Request):
 if __name__ == "__main__":
     # Make sure the file name here matches your actual file name if it's not 'main_progress.py'
     # For example, if your file is my_sse_app.py, use "my_sse_app:app"
-    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True, log_level="info")
+    uvicorn.run("main_progress:app", host="0.0.0.0", port=8000, reload=True, log_level="info")
     # Changed "main_progress:app" to "main:app" assuming your file is called main.py or similar.
     # Adjust if your Python file has a different name.
